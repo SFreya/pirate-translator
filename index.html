@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Translator</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      textarea {
+          width: 80%;
+          height: 10vh;
+          display: block;
+          margin: 1rem;
+          padding: 1rem;
+          border-radius: 25px;
+      }
+
+      #output {
+          border: 1px solid black;
+          display: block;
+          height: 10vh;
+          width: 80%;
+          margin: 1rem;
+          padding: 1rem;
+          border-radius: 25px;
+      }
+
+  </style>
+    
+
+    
+
+</head>
+<body>
+     <nav>
+        <div class="header">Welcome to Pirate Talks </div>
+      </nav>
+
+      <div class="container">
+        <textarea
+          name="input-translator"
+          id="inputArea"
+          placeholder="Enter the text which you want to convert to pirate language"
+          class="no-inline input-area"
+        ></textarea>
+  
+        <button id="btn-translate" class="no-inline">Translate to Pirate</button>
+  
+        <textarea
+          name="output-translator"
+          id="outputArea"
+          class="no-inline output-area"
+          placeholder="Translation will appear here."
+        ></textarea>
+      </div>
+
+
+    <footer>
+        <div class="footer-heading">About</div>
+        <p class="footer-para">
+          "Not all treasures are silver and gold mate." <br>
+          Are you a true Pirate fan? Try coverting English to Pirate language.
+        </p>
+      </footer>
+
+
+    <script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
